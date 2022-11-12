@@ -1,0 +1,56 @@
+.expenses-container{
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(184, 218, 206);
+	/* background-color: red; */
+	width: 90%;
+	margin: 2rem auto;
+	align-items: center;
+}
+
+
+
+.expenses-description {
+	display: flex;
+	justify-content: space-between;
+	width: 65%;
+	padding: 1rem 2rem;
+}
+
+.expenses-title{
+	font-size: 1.5rem;
+	color: maroon;
+}
+
+.expenses-amount{
+	font-size: 2rem;
+	font-weight: 500;
+	background-color: maroon;
+	color: white;
+	border: none;
+	padding: 1rem 1.7rem;
+	border-radius: 0.5rem;
+
+}
+
+.btn-expenses {
+	background-color: blue;
+	color: white;
+	border: none;
+	display: inline-block;
+	padding: 0.4rem 0.7rem;
+	font-size: 1.3rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	letter-spacing: 0.1rem;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.no-found{
+	text-align: center;
+	font-size: 1.5rem;
+	color: red;
+	text-transform: capitalize;
+	padding: 1rem 0;
+	display: block;
+}

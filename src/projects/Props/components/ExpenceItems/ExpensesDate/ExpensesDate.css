@@ -1,0 +1,22 @@
+.date-container {
+	width: 20%;
+	padding: 1rem;
+	background-color: blanchedalmond; 
+}
+
+.date-items {
+	background-color: #283618;
+	color: white;
+	padding: 1rem 0rem;
+	border: none;
+	width: 50%;
+	margin: 0 auto; 
+	text-align: center;
+}
+
+.month, .year, .day {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	letter-spacing: 0.1rem;
+	font-weight: 600;
+}

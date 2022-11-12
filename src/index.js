@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import States from './projects/Props/States/States';
+import Classcomponents from './projects/Props/States/Classcomponents/Classcomponents';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    {/* <States/> */}
+    {/* <Classcomponents/> */}
   </React.StrictMode>
 );
 
